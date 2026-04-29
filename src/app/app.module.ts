@@ -15,6 +15,7 @@ import { OrdersComponent } from './components/orders/orders.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { SignupComponent } from './auth/signup/signup.component';
     SigninComponent,
     SignupComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
