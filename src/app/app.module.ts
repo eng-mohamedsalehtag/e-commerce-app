@@ -14,7 +14,6 @@ import { BrandsComponent } from './components/brands/brands.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SigninComponent } from './auth/signin/signin.component';
-import { SignoutComponent } from './auth/signout/signout.component';
 import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
@@ -31,14 +30,10 @@ import { SignupComponent } from './auth/signup/signup.component';
     OrdersComponent,
     NotFoundComponent,
     SigninComponent,
-    SignoutComponent,
-    SignupComponent
+    SignupComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

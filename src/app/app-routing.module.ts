@@ -6,7 +6,6 @@ import { BrandsComponent } from './components/brands/brands.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SigninComponent } from './auth/signin/signin.component';
-import { SignoutComponent } from './auth/signout/signout.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ProductsComponent } from './components/products/products.component';
@@ -20,7 +19,6 @@ const routes: Routes = [
   { path: 'cart', component: CartComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'signin', component: SigninComponent },
-  { path: 'signout', component: SignoutComponent },
   { path: 'signup', component: SignupComponent },
   { path: '**', component: NotFoundComponent },
 ];
