@@ -15,6 +15,7 @@ import { OrdersComponent } from './components/orders/orders.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignoutComponent } from './auth/signout/signout.component';
+import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SignoutComponent } from './auth/signout/signout.component';
     OrdersComponent,
     NotFoundComponent,
     SigninComponent,
-    SignoutComponent
+    SignoutComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
